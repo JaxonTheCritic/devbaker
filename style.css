@@ -1,0 +1,74 @@
+.header-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header-container h1 {
+  display: inline-block; 
+  margin-right: 10px; 
+}
+
+.seal {
+  display: inline-block;
+  transform: rotate(180deg); 
+  margin-left: 10px; 
+}
+
+#classroom {
+  height: 1200px; 
+  width: 1000px;  
+  background-color: #00bf7d;
+  margin: auto;
+  position: relative;
+}
+
+.desks {
+  height: 100px;
+  width: 900px; 
+  background-color: #2546f0;
+  position: relative;
+  left: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px; 
+}
+
+#firstRow {
+  margin-top: 150px; 
+}
+
+#secondRow {
+  margin-top: 50px; 
+}
+
+#thirdRow {
+  margin-top: 50px; 
+}
+
+#fourthRow {
+  margin-top: 50px; 
+}
+
+.seat {
+  height: 70px;
+  width: calc(100% / 8 - 10px); 
+  background-color: #00b4c5;
+  margin: 5px;
+  text-align: center;
+  line-height: 70px; 
+}
+
+#firstRow, #secondRow, #thirdRow, #fourthRow {
+  position: relative;
+}
+
+#podium {
+  height: 100px;
+  width: 150px;
+  border: solid 2px black;
+  background-color: #0073e6;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  text-align: center;
+}
